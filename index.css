@@ -1,0 +1,1691 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+/* --------------------------------------------menu page--------------------------------------------------- */
+
+.page0{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    font-family: "Poppins", Sans-serif; 
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.8s ease-in-out;
+}
+
+.page0.active {
+    transform: translateY(0%);
+}
+
+.forcancel{
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.menucontent{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.page0heading{
+    color: white;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.pagesname6{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.names1div{
+    width: 50%;
+}
+
+.names2div{
+    width: 50%;
+}
+
+.contentpage0{
+    width: 100%;
+    font-size: 2vw;
+    font-weight: 400;
+    padding: 3% 0px;
+    font-style: italic;
+    width: 67%;
+}
+
+.innertextpage0{
+    color: white;
+    cursor: pointer;
+}
+
+.innertextpage0:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.contentpage0:hover{
+    padding: 1% 0px 5% 0px;
+    transition: 0.2s ease;
+}
+
+.linef, .linel{
+    color: white;
+    background-color: white;
+    border: 1px solid;
+}
+
+.page0footer{
+    color: white;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.empty{
+    height: 50px;
+}
+
+.close{
+    color: white;
+    font-size: xx-large;
+}
+
+.close:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.forcancel{
+    color: white;
+}
+
+.fa-times{
+    color: white;
+    cursor: pointer;
+}
+
+.new.active{
+    color: black;
+    display: none;
+    background-color: black;
+}
+
+.menucolor.active{
+    display: black;
+}
+
+.contactus{
+    color: white;
+}
+
+.contactus:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.menubarname12.active{
+    color: black;
+}
+
+.navbar12.active{
+    display: none;
+}
+
+.srevicepage.none{
+    display: none;
+}
+
+
+
+/* ------------------------------------------page 1------------------------------------------------------- */
+
+.page1{
+    background-image: url("http://thinkgestalt.com/wp-content/uploads/2021/04/Artwork.png");
+    width:100%;
+    height:100vh;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 320px;
+}
+
+.fas{
+    color: black;
+}
+
+.fa-bars{
+    color: white;
+}
+
+.homemenu{
+    color: black;
+}
+
+.navbar{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menubar{
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 80px;
+    color: black;
+}
+
+.menubarname{
+    color: #000;
+    text-decoration: none;
+}
+
+.menubarname:hover{
+    cursor: pointer;
+}
+
+.navlink{
+    font-size: 26px;
+    padding-left: 60px;
+    text-decoration: none;
+} 
+
+.navlinkname{
+    color: #000;
+    text-decoration: none;
+}
+
+.navlinkname:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.menubarname:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.hamberger{
+    display: none;
+}
+
+.mouse{
+    margin: 20 auto;
+}
+
+.centercontain{
+    text-align: center;
+    font-size: 5vw;
+    font-style: italic;
+    font-weight: 360;
+    margin-top: 60px;
+    line-height: 1.2;
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+}
+
+.centertext{
+    text-align: center;
+    font-size: 9vw;
+    font-weight: 600;
+    font-family: "Poppins", Sans-serif;
+    padding: 0;
+    line-height: 1.2;
+    color: black;
+}
+
+/* ----------------------------------------page 2------------------------------------------------------- */
+
+.page2{
+    position: relative;
+    min-width: 320px;
+}
+
+.page2wrapper{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.leftsidetextpage2{
+    font-size: 9vw;
+    line-height: 0.9;
+    padding-top: 80px;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 600;
+    color: black;
+    width: 50%;
+}
+
+.rightsideimgpage2{
+    width: 50%;
+}
+
+.rightsideimgpage2 img{
+    width:100%;
+}
+
+.page2content{
+    font-weight: 300;
+}
+
+.page2footertext{
+    font-size: 1.4vw;
+    font-weight: 300;
+    line-height: 1.5em;
+    width: 57%;
+    padding-left: 5%;
+    margin-top: -60px;
+    margin-bottom: 20px;
+    font-family: "Poppins", Sans-serif;
+}
+
+/* ---------------------------------------page 3 -------------------------------------------------------- */
+
+.page3{
+    min-width: 320px;
+}
+
+.page3heading{
+    width: 90%;
+    font-size: 7vw;
+    margin-top: 10%;
+    margin-left: 5%;
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 600;
+}
+
+.page3content{
+    font-weight: 300;
+}
+
+.page3wrapper{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.leftsideimgpage3{
+    width: 100%;
+}
+
+.leftsideimgpage3 img{
+    width: 100%;
+}
+
+.rightsidetextpage3{
+    text-align: right;
+    font-size: 1.5vw;
+    margin-top: 110px;
+    font-family: "Poppins", Sans-serif;
+    width: 92%;
+}
+
+/* --------------------------------------------page 4 -------------------------------------------------- */
+
+.page4{
+    min-width: 320px;
+}
+
+.page4heading{
+    font-size: 7vw;
+    font-weight: 600;
+    font-family: "Poppins", Sans-serif;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 90%;
+    font-style: italic;
+    color: black;
+}
+
+.page4content{
+    font-weight: 300;
+}
+
+.page4smallcont{
+    font-size: 1.5vw;
+    margin-left: 5%;
+    font-family: "Poppins", Sans-serif;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.page4wrapper{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.page4icons{
+    padding-left: 5%;
+    margin-top: 2%;
+    padding-right: 5%;
+    width: 50vw;
+    height: 500px;
+}
+
+.icontext{
+    padding-left: 15px;
+    color: black;
+    font-size: 2.5vw;
+    font-weight: 500;
+    font-style: italic;
+    font-family: "Poppins", Sans-serif;
+}
+
+.icontext:hover{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.page4underline{
+    background-color: black;
+    width: 100%;
+}
+
+.icons{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    min-width: 50%;
+    min-height: 1px;
+}
+
+.rightimgpag4{
+    width: 50%;
+}
+
+.rightimgpag4 img{
+    width: 100%;
+}
+
+.rightimgpag4770{
+    display: none;
+}
+
+.iconimg{
+    width: 10%;
+    padding-top: 0px;
+}
+
+/* -------------------------------------------page 5 ---------------------------------------------------- */
+
+.page5{
+    min-width: 320px;
+}
+
+.page5heading{
+    margin-top: 10%;
+    font-size: 7vw;
+    font-weight: 600;
+    font-family: "Poppins", Sans-serif;
+    color: black;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.page5headcont{
+    font-weight: 300;
+    font-style: italic;
+}
+
+.imgagesliderbutton{
+    color: black;
+}
+
+.imgno{
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.page5footer{
+    font-size: 2.5vw;
+    width: 90%;
+    padding-left: 5%;
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.page5footercont{
+    font-weight: 600;
+    font-style: normal;
+}
+
+.page5footercont1{
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------page 6 ------------------------------------------------ */
+
+.page6{
+    min-width: 320px;
+}
+
+.page6header{
+    margin-top: 10%;
+    padding-left: 5%;
+    font-style: italic;
+    font-size: 7vw;
+    font-weight: 300;
+    line-height: 1.2;
+    color: black;
+    font-family: "Poppins", Sans-serif;
+}
+
+.page6headcont{
+    font-weight: 600;
+    font-style: normal;
+}
+
+.byrole{
+    text-align: center;
+    font-size: 3.5vw;
+    color: black;
+    margin-top: 6%;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+}
+
+.page6maincont{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.page6wrapper{
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.page6cont1{
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+}
+
+.page6cont2{
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+}
+
+.page6cont3{
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.role1{
+    border: black 2px solid;
+    font-size: 2vw;
+    padding: 25px 0px;
+    font-weight: 400;
+    font-family: "Poppins", Sans-serif;
+    color: black;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    font-style: italic;
+}
+
+.load{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.loadmore{
+    text-align: center;
+}
+
+.load:hover{
+    color: black;
+}
+
+.role2{
+    width: 90%;
+}
+
+/* -----------------------------------------------page 7 -------------------------------------------------- */
+
+.page7{
+    min-width: 320px;
+}
+
+.page7heading{
+    margin-top: 10%;
+    font-weight: 300;
+    font-size: 5vw;
+    line-height: 1.2;
+    padding-left: 5%;
+    color: black;
+    font-style: italic;
+    width: 90%;
+    font-family: "Poppins", Sans-serif;
+}
+
+.page7headcont{
+    font-weight: 600;
+    font-style: normal;
+}
+
+.page7maincont{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.leftsideimgpage7{
+    width: 46%;
+}
+
+.leftsideimgpage7 img{
+    width: 100%;
+}
+
+.rightsideformpage7{
+    width: 54%;
+}
+
+.nameform{
+    border: gray solid;
+    border-width: 0px 0px 3px 0px;
+    border-radius: 0;
+    font-family: "Poppins", Sans-serif;
+}
+
+.emailform{
+    border: gray solid;
+    border-width: 0px 0px 3px 0px;
+    border-radius: 0;
+    font-family: "Poppins", Sans-serif;
+}
+
+.phoneform{
+    border: gray solid;
+    border-width: 0px 0px 3px 0px;
+    border-radius: 0;
+    font-family: "Poppins", Sans-serif;
+}
+
+.messageform{
+    border: gray solid;
+    border-width: 0px 0px 3px 0px;
+    border-radius: 0;
+    font-family: "Poppins", Sans-serif;  
+}
+
+.textarea{
+    color: black;
+    font-weight: 500;
+}
+
+.submitbutton{
+    font-style: italic;
+    background-color: black;
+    border-radius: 50px;
+    padding: 12px 24px;
+    float: right;
+    color: white;
+    font-weight: 500;
+    font-family: "Poppins", Sans-serif;
+}
+
+.page7wrapper{  
+    margin-top: 13%;
+    padding-left: 20px;
+}
+
+.page7heading12{
+    font-weight: 300;
+    font-size: 5vw;
+    line-height: 1.2;
+    padding-left: 5%;
+    color: black;
+    font-style: italic;
+    width: 90%;
+    font-family: "Poppins", Sans-serif;
+}
+
+/* ----------------------------------------------service page-------------------------------------- */
+
+.srevicepage{
+    background-color: black;
+    min-width: 320px;
+    overflow-y: hidden;
+}
+
+.navbar12{
+    width: 90%;
+    margin: auto;
+    padding: 0px;
+    height: 25vh;
+}
+
+.navlink12{
+    font-size: 26px;
+    text-decoration: none;
+} 
+
+.menubar12{
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 80px;
+    color: white;
+}
+
+.menubarname12{
+    color: white;
+    text-decoration: none;
+}
+
+.navlinkname12{
+    color: white;
+    text-decoration: none;
+}
+
+.navlinkname12:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.menubarname12:hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.mainhead1{
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 8vw;
+    font-weight: 600;
+    margin: 0px 5%;
+    line-height: 1;
+}
+
+.mainhead2{
+    color: #04db86;
+    font-family: "Poppins", Sans-serif;
+    font-size: 8vw;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0px 5%;
+    line-height: 1;
+}
+
+.pagecont1{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #ebebeb;
+    margin: 45px 5% 0px 5%;
+    width: 70%;
+}
+
+.pagecont2{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    color: #ebebeb;
+    margin: 10px 45%;
+    width: 49%;
+    margin-bottom: 40px;
+}
+
+.linef1{
+    color: white;
+    background-color: white;
+    border: 1px solid;
+    margin: 50px 5%;
+}
+
+.serviceimg{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.serviceimg img{
+    width: 100%;
+}
+
+.footertextser{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #ebebeb;
+    margin: 2% 5% 0px 5%;
+    width: 44%;
+}
+
+.emptyser{
+    height: 50px;
+}
+
+/* ------------------------------------------------Data Science------------------------------------ */
+
+.pagecont1ds{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #ebebeb;
+    margin: 45px 5% 0px 5%;
+    width: 68%;
+}
+
+.footertextserds{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #ebebeb;
+    margin: 2% 5% 0px 5%;
+    width: 65%;
+}
+
+.footerds{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    color: #ebebeb;
+    width: 50%;
+    margin: 20px 45%;
+}
+
+/* ------------------------------------------------cloud service---------------------------------------- */
+
+.pagecont1cs{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #ebebeb;
+    margin: 45px 5% 0px 5%;
+    width: 74%;
+}
+
+.footertextsercs{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #ebebeb;
+    margin: 2% 5% 0px 5%;
+    width: 59%;
+}
+
+/* ---------------------------------------------------website development----------------------------------- */
+
+.pagecont1wd{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #ebebeb;
+    margin: 45px 5% 0px 5%;
+    width: 63%;
+}
+
+.footertextserwd{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #ebebeb;
+    margin: 2% 5% 0px 5%;
+    width: 70%;
+}
+
+.footerds{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    color: #ebebeb;
+    width: 34%;
+    margin: 20px 40%;
+}
+
+.footerwd{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    color: #ebebeb;
+    width: 50%;
+    margin: 20px 45%;
+}
+
+/* -----------------------------------------------cyber security----------------------------------------- */
+
+.flexdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.flextext{
+    width: 50%;
+}
+
+.cont1ser{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    color: #ebebeb;
+    margin-bottom: 25px;
+    width: 83%;
+}
+
+.cont2ser{
+    color: #ebebeb;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-top: 25px;
+    width: 82%;
+}
+
+.serviceimage{
+    width: 50%;
+}
+
+.serviceimage img {
+    width: 100%;
+}
+
+.cont1serrpa{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #ebebeb;
+    margin-bottom: 100px;
+    width: 83%;
+}
+
+.cont2serrpa{
+    color: #ebebeb;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    margin-top: 100px;
+    width: 83%;
+}
+
+/* ----------------------------------------------RPA----------------------------------------------------- */
+
+.flexdivrpa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    width: 1px solid white;
+}
+
+.flextextrpa{
+    width: 40%;
+    width: 1px solid white;
+}
+
+
+.cont1serrpa{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #ebebeb;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.cont2serrpa{
+    color: #ebebeb;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    margin-top: 100px;
+    width: 100%;
+}
+
+/* --------------------------------------------case study-1 -------------------------------------------- */
+
+.casestudty1{
+    background-image: url("casestudy1.png");
+    width:100%;
+    height:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 320px;
+}
+
+.casestudty2{
+    background-image: url("casestudy2.png");
+    width:100%;
+    height:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 320px;
+}
+
+.casecont1{
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 2.5vw;
+    font-weight: 300;
+    letter-spacing: 6px;
+    padding: 0px 5%;
+    margin-top: 180px;
+}
+
+.casecont2{
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 5vw;
+    font-weight: 600;
+    line-height: 1.2em;
+    width: 76%;
+    padding: 0px 5%;
+    padding-bottom: 100px;
+}
+
+.challenge{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 6vw;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0px 5%;
+    margin-top: 5%;
+}
+
+.challenegcont{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 2vw;
+    font-weight: 300;
+    margin-top: 3%;
+    padding: 0px 5%;
+    width: 88%;
+}
+
+.solution{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 6vw;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0px 5%;
+    margin-top: 5%;
+}
+
+.solutioncont{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 2vw;
+    font-weight: 300;
+    margin-top: 3%;
+    padding: 0px 5%;
+    width: 88%;
+    margin-bottom: 5%;
+}
+
+.solutioncont1{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 2vw;
+    font-weight: 300;
+    margin-top: 3%;
+    padding: 0px 5%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.challenegcont1{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 2vw;
+    font-weight: 300;
+    margin-top: 3%;
+    padding: 0px 5%;
+    width: 100%;
+}
+
+.casecont22{
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 5vw;
+    font-weight: 600;
+    line-height: 1.2em;
+    width: 89%;
+    padding: 0px 5%;
+    padding-bottom: 100px;
+}
+
+
+/* ----------------------------media query for 1050px--------------------------------------------------- */
+
+@media (max-width: 1050px) {
+
+/* --------------------------------for page 4------------------------------------------------------------- */
+
+.rightimgpag4{
+    display: none;
+}
+
+.rightimgpag4770{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.rightimgpag4770 img{
+    width: 100%;
+}
+
+.page4wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.page4icons{
+    padding-left: 5%;
+    margin-top: 2%;
+    padding-right: 5%;
+    width: 90%;
+    height: 400px;
+}
+
+.icontext{
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.icons{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* --------------------------------for page 5------------------------------------------------------------- */
+
+.page5heading {
+    margin-top: 40%;
+}
+
+}
+
+/* ----------------------------media query for 768px--------------------------------------------------- */
+
+@media (max-width: 767px) {
+
+    .casecont1{
+        font-size: 2.5vw;
+    }
+
+    .casecont2{
+        font-size: 6vw;
+        width: 85%;
+    }
+
+    .casecont22{
+        font-size: 6vw;
+        width: 90%;
+    }
+
+    .challenge{
+        font-size: 37px;
+    }
+
+    .challenegcont{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .challenegcont1{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .solution{
+        font-size: 37px;
+    }
+
+    .solutioncont{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .solutioncont1{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .hamber{
+        color: black;
+    }
+    
+    .page0{
+        height: 100vh;
+    }
+
+    .pagesname6{
+        display: block;
+    }
+
+    .names1div{
+        width: 100%;
+        padding-left: 5%;
+    }
+    
+    .names2div{
+        width: 100%;
+        padding-left: 5%;
+    }
+    
+    .contentpage0{
+        font-size: 4vw;
+    }
+
+    .page0heading{
+        font-size: 6vw;
+    }
+
+    .contentpage0{
+        padding: 1% 0px;
+    }
+
+    .page0{
+        transform: translatex(-100%);
+        min-width: 320px;
+    }
+    
+    .page0.active {
+        transform: translatex(0%);
+    }
+
+    .contactus{
+        font-size: 6vw;
+    }
+
+    .contentpage0:hover {
+        padding: 0% 0px 2% 0px;
+        transition: 0.2s ease;
+    }
+
+
+    /* -------------------------------------page 1------------------------------------------------------ */
+
+    .menubar{
+        display: none;
+    }   
+
+    .hamberger{
+        display: block;
+        padding-right: 5%;
+    }
+
+    .fas{
+        font-size: x-large;
+    }
+
+    .navbar{
+        height: 20vh;
+    }
+
+    .navlinkname{
+        padding-left: -50px;
+    }
+
+    .navlink{
+        padding-left: 20px;
+    } 
+
+    .centercontain{
+        font-size: 6.7vw;
+        margin-top: 20%;
+    }
+
+    .centertext{
+        font-size: 12.4vw;
+    }
+
+    .new{
+        color: white;
+    }
+
+    .new.active{
+        color: black;
+    }
+
+    .fa-bars.active{
+        color: black;
+    }
+
+    .fa-bars{
+        cursor: pointer;
+    }
+
+    /* ----------------------------------------service page-------------------------------------- */
+
+    /* Tailor-Web Apps */
+
+    .menubar12{
+        display: none;
+    } 
+
+    .hamcol{
+        color: white;
+    }
+
+    .navlink12{
+        font-size: 22px;
+    } 
+    
+    .mainhead1{
+        font-size: 37px;
+        margin-top: 0px;
+    }
+
+    .mainhead2{
+        font-size: 37px;
+    }
+
+    .pagecont1{
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .pagecont2{
+        font-size: 16px;
+        width: 90%;
+        margin: 30px 5%;
+    }
+
+    .footertextser{
+        font-size: 16px;
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    /* Data Science */
+
+    .footertextserds{
+        font-size: 16px;
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .footerds{
+        width: 90%;
+        margin: 20px 5%;
+        font-size: 16px;
+    }
+
+    .pagecont1ds{
+        font-size: 16px;
+        width: 90%;
+    }
+
+    /* Cloud Services */
+
+    .pagecont1cs{
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .footertextsercs{
+        font-size: 16px;
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    /*  Website Development */
+
+    .pagecont1wd{
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .footertextserwd{
+        font-size: 16px;
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .footerwd{
+        width: 90%;
+        margin: 20px 5%;
+        font-size: 16px;
+    }
+
+    /* Cyber security */
+
+    .flexdiv{
+        flex-direction: column-reverse;
+    }
+
+    .flextext{
+        width: 100%;
+    }
+
+    .cont1ser{
+        font-size: 16px;
+        font-weight: 200;
+        margin-bottom: 25px;
+        margin-top: 75px;
+        width: 100%;
+    }
+
+    .cont2ser{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .serviceimage{
+        width: 90%;
+    }
+
+    .serviceimage img {
+        width: 100%;
+    }
+
+    /* RPA */
+
+    .flexdivrpa{
+        flex-direction: column;
+    }
+    
+    .flextextrpa{
+        width: 100%;
+    }
+
+    .cont1serrpa{
+        font-size: 16px;
+        margin-bottom: -50px;
+        margin-top: 50px;
+    }
+    
+    .cont2serrpa{
+        font-size: 16px;
+    }
+
+
+
+    /* -----------------------------------------page 2---------------------------------------------- */
+
+    .page2wrapper{
+        display: block;
+    }
+
+    .leftsidetextpage2{
+        font-size: 37px;
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .rightsideimgpage2{
+        width: 100%;
+    }
+    
+    .rightsideimgpage2 img{
+        width:100%;
+    }
+    
+    .page2footertext{
+        font-size: 16px;
+        width: 100%;
+        padding: 0px 5%;
+        margin-top: -60px;
+        margin-bottom: 20px;
+    }
+
+    /* ---------------------------------page 3----------------------------------------------------------- */
+
+    .page3heading{
+        width: 200px;
+        font-size: 37px;
+        line-height: 1;
+    }
+
+    .page3wrapper{
+        display: block;
+    }
+    
+    .leftsideimgpage3{
+        width: 100%;
+    }
+    
+    .leftsideimgpage3 img{
+        width: 100%;
+    }
+    
+    .rightsidetextpage3{
+        text-align: start;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 0px;
+    }
+
+    /* -----------------------------------------page 4-------------------------------------------------- */
+
+    .page4heading {
+        width: 20px;
+        font-size: 37px;
+        line-height: 1;
+    }
+
+    .page4smallcont {
+        width: 90%;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    /* -----------------------------------page 5---------------------------------------------------- */
+
+    .page5heading {
+        width: 20px;
+        line-height: 1;
+        padding-bottom: 20px;
+        font-size: 37px;
+    }
+
+    .page5footer {
+        font-size: 22px;
+        width: 100%;
+        padding-right: 5%;
+        padding-bottom: 20px;
+    }
+
+    /* ----------------------------------------page 6------------------------------------------------ */
+
+    .page6header{
+        font-size: 37px;
+        width: 100%;
+    }
+
+    .byrole {
+        font-size: 29px;
+        padding-bottom: 20px;
+    }
+
+    .page6wrapper{
+        display: block;
+    }
+
+    .page6cont1{
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .page6cont2{
+        width: 100%;
+        padding: 0px;
+    }
+        
+    .page6cont3{
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .role1{
+        font-size: 24px;
+    }
+
+    .load{
+        font-size: 16px;
+        padding-bottom: 40px;
+    }
+
+    .role2{
+        width: 100%;
+    }
+
+    /* --------------------------------------page7----------------------------------------------------------- */
+
+    .page7heading{
+        font-size: 28px;
+        width: 100%;
+        padding-right: 5%;
+        padding-top: 20px;
+    }
+
+    .page7maincont{
+        display: block;
+    }
+
+    .leftsideimgpage7{
+        width: 100%;
+    }
+
+    .rightsideformpage7{
+        width: 100%;
+        margin-left: -20px;
+        margin-top: -90px;
+    }
+
+    .nameform {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .submitbutton{
+        float: inherit;
+        margin-bottom: 40px;
+    }
+
+    .buttoncenter{
+        display: flex;
+        justify-content: center;
+    }
+
+    .page7heading12{
+        font-size: 28px;
+        width: 100%;
+        padding-right: 5%;
+        padding-top: 20px;
+    }
+
+}
+
+/* ----------------------------media query for 500px--------------------------------------------------- */
+
+@media (max-width: 500px) {
+
+    .centercontain{
+        margin-top: 35%;
+    }
+
+    .navlink{
+        padding-left: 0px;
+    } 
+
+    .page2footertext{
+        margin-top: -40px;
+    }
+
+    .page5footer {
+        margin-top: 20px;
+    }
+
+    
+
+}
+
+/* ----------------------------media query for 400px--------------------------------------------------- */
+
+@media (max-width: 400px) {
+
+    .centercontain{
+        margin-top: 45%;
+    }
+
+    .rightimgpag4770{
+        width: 81%;
+    }
+
+}
+
+.loadmorecontent{
+    display: none;
+}
+
+.loadmorecontent.active{
+    display: block;
+    
+}
+
+.load:hover{
+    cursor: pointer;
+}
+
+.loadmore.active{
+    display: none;
+}
+
+.contacthide.active{
+    display: none;
+}
+
+.contham{
+    color: black;
+}
